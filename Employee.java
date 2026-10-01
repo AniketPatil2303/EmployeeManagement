@@ -4,13 +4,12 @@ public class Employee {
     String name;
     double salary;
 
-    public Employee(int id, String name, double salary) {
+    public Employee(int id, String name) {
         this.id = id;
         this.name = name;
-        this.salary = salary;
     }
 
     public void display() {
-        System.out.println(id + " " + name + " " + salary);
+        System.out.println(id + " " + name + " ");
     }
 }
